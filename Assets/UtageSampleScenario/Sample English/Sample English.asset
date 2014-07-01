@@ -1,0 +1,4583 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b8d5161c5f28d4ea495ad0b4595f62, type: 3}
+  m_Name: Sample English
+  m_EditorClassIdentifier: 
+  dictionary:
+    list:
+    - key: Start
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings:
+          - Bg
+          - BG1
+          isEmpty: 0
+        - rowIndex: 2
+          strings:
+          - 
+          - Utako
+          - 
+          - Character
+          isEmpty: 0
+        - rowIndex: 3
+          strings:
+          - 
+          - Run
+          - 
+          - CharacterLeft
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - 
+          - Roboko
+          - 
+          - CharacterRight
+          - 
+          - 
+          - 
+          - Welecom Utaga. This is Unity Text Adventure Game Engine.
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - Sprite
+          - ScreenShot
+          isEmpty: 0
+        - rowIndex: 6
+          strings:
+          - 
+          - Utako
+          - Smile
+          - 
+          - 
+          - 
+          - 
+          - This is scenario data sample,maked Excel.
+          isEmpty: 0
+        - rowIndex: 7
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - I will show you a sample.
+          isEmpty: 0
+        - rowIndex: 8
+          strings: []
+          isEmpty: 1
+        - rowIndex: 9
+          strings:
+          - SpriteOff
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - EndSceneGallery
+          isEmpty: 0
+        - rowIndex: 11
+          strings:
+          - Jump
+          - '*TutorialTopMenu'
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:Start
+        type: 1
+        textLength: 304
+        headerRow: 0
+    - key: TutorialTopMenu
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings: []
+          isEmpty: 1
+        - rowIndex: 2
+          strings: []
+          isEmpty: 1
+        - rowIndex: 3
+          strings:
+          - '*TopMenu'
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - Bg
+          - BG1
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 6
+          strings:
+          - Selection
+          - '*Basic'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Basic
+          isEmpty: 0
+        - rowIndex: 7
+          strings:
+          - Selection
+          - '*TutorialTween'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Tween
+          isEmpty: 0
+        - rowIndex: 8
+          strings:
+          - Selection
+          - '*TutorialSendMessage'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - SendMessage
+          isEmpty: 0
+        - rowIndex: 9
+          strings:
+          - Selection
+          - '*TutorialMiniGame'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - MiniGame
+          isEmpty: 0
+        - rowIndex: 10
+          strings: []
+          isEmpty: 1
+        - rowIndex: 11
+          strings:
+          - '*Basic'
+          isEmpty: 0
+        - rowIndex: 12
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - Selection
+          - '*TutorialText'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Text
+          isEmpty: 0
+        - rowIndex: 14
+          strings:
+          - Selection
+          - '*TutorialCharacter'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Character
+          isEmpty: 0
+        - rowIndex: 15
+          strings:
+          - Selection
+          - '*TutorialBG'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Bg and EventCG
+          isEmpty: 0
+        - rowIndex: 16
+          strings:
+          - Selection
+          - '*TutorialSound'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play Sound
+          isEmpty: 0
+        - rowIndex: 17
+          strings:
+          - Selection
+          - '*TopMenu'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Back
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialTopMenu
+        type: 1
+        textLength: 367
+        headerRow: 0
+    - key: TutorialText
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Character talk
+          isEmpty: 0
+        - rowIndex: 2
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 3
+          strings:
+          - 
+          - Nameless
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Nameless talk
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Normal text
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - 
+          - Utako
+          - <Off>
+          - 
+          - 
+          - 
+          - 
+          - Named talk and no disp
+          isEmpty: 0
+        - rowIndex: 6
+          strings: []
+          isEmpty: 1
+        - rowIndex: 7
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - <color=red>Text color </color>
+          isEmpty: 0
+        - rowIndex: 8
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 'Preset color is <color=aqua>aqua</color><color=black>black</color><color=blue>blue</color>
+
+            <color=brown>brown</color><color=cyan>cyan</color><color=darkblue>darkblue</color>
+
+            <color=fuchsia>fuchsia</color><color=green>green</color><color=grey>grey</color>'
+          isEmpty: 0
+        - rowIndex: 9
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - '<color=lightblue>lightblue</color><color=lime>lime</color><color=magenta>magenta</color><color=maroon>maroon</color>
+
+            <color=navy>navy</color><color=olive>olive</color><color=orange>orange</color><color=purple>purple</color>
+
+            <color=red>red</color><color=silver>silver</color><color=teal>teal</color><color=white>white</color><color=yellow>yellow</color>'
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - '<color=#99ff00ff>Color code #99ff00ff</color>'
+          isEmpty: 0
+        - rowIndex: 11
+          strings: []
+          isEmpty: 1
+        - rowIndex: 12
+          strings:
+          - Param
+          - num_boot+=1
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - <size=50>Param</size> text <color=orange>num_boot = <format={0,3}:num_boot></color>
+          isEmpty: 0
+        - rowIndex: 14
+          strings: []
+          isEmpty: 1
+        - rowIndex: 15
+          strings:
+          - EndSceneGallery
+          isEmpty: 0
+        - rowIndex: 16
+          strings:
+          - Jump
+          - '*Basic'
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialText
+        type: 1
+        textLength: 969
+        headerRow: 0
+    - key: TutorialCharacter
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Change face pattern
+          isEmpty: 0
+        - rowIndex: 2
+          strings:
+          - 
+          - Utako
+          - Smile
+          - 
+          - 
+          - 
+          - 
+          - Smile
+          isEmpty: 0
+        - rowIndex: 3
+          strings:
+          - 
+          - Utako
+          - Sigh
+          - 
+          - 
+          - 
+          - 
+          - Sigh
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - 
+          - Utako
+          - Shy
+          - 
+          - 
+          - 
+          - 
+          - Shy
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Change face pattern
+          isEmpty: 0
+        - rowIndex: 6
+          strings:
+          - 
+          - Run
+          - Surprised
+          - 
+          - 
+          - 
+          - 
+          - Surprised
+          isEmpty: 0
+        - rowIndex: 7
+          strings:
+          - 
+          - Run
+          - Satisfaction
+          - 
+          - 
+          - 
+          - 
+          - Satisfaction
+          isEmpty: 0
+        - rowIndex: 8
+          strings:
+          - 
+          - Run
+          - Angry
+          - 
+          - 
+          - 
+          - 
+          - Angry
+          isEmpty: 0
+        - rowIndex: 9
+          strings:
+          - 
+          - Run
+          - Shy
+          - 
+          - 
+          - 
+          - 
+          - Shy
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Change face pattern
+          isEmpty: 0
+        - rowIndex: 11
+          strings:
+          - 
+          - Roboko
+          - Pose
+          - 
+          - 
+          - 
+          - 
+          - Pose
+          isEmpty: 0
+        - rowIndex: 12
+          strings:
+          - 
+          - Roboko
+          - Scan
+          - 
+          - 
+          - 
+          - 
+          - Scan
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - 
+          - Roboko
+          - Shy1
+          - 
+          - 
+          - 
+          - 
+          - Shy1
+          isEmpty: 0
+        - rowIndex: 14
+          strings:
+          - 
+          - Roboko
+          - Shy2
+          - 
+          - 
+          - 
+          - 
+          - Shy2
+          isEmpty: 0
+        - rowIndex: 15
+          strings: []
+          isEmpty: 1
+        - rowIndex: 16
+          strings:
+          - 
+          - 
+          - 
+          - CharacterLeft
+          - 
+          - 
+          - 
+          - Left Layer
+          isEmpty: 0
+        - rowIndex: 17
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - -180
+          - 50
+          - 
+          - 'Change position '
+          isEmpty: 0
+        - rowIndex: 18
+          strings:
+          - 
+          - Utako
+          - 
+          - CharacterLeft
+          - 
+          - 
+          - 
+          - Left Layer
+          isEmpty: 0
+        - rowIndex: 19
+          strings:
+          - 
+          - Run
+          - 
+          - Character
+          - 
+          - 
+          - 
+          - Center Layer
+          isEmpty: 0
+        - rowIndex: 20
+          strings:
+          - 
+          - Roboko
+          - 
+          - CharacterRight
+          - 
+          - 
+          - 
+          - Right Layer
+          isEmpty: 0
+        - rowIndex: 21
+          strings:
+          - CharacterOff
+          - Utako
+          isEmpty: 0
+        - rowIndex: 22
+          strings:
+          - 
+          - Utako
+          - <Off>
+          - 
+          - 
+          - 
+          - 
+          - Fade out character
+          isEmpty: 0
+        - rowIndex: 23
+          strings:
+          - 
+          - Utako
+          - 
+          - CharacterLeft
+          isEmpty: 0
+        - rowIndex: 24
+          strings:
+          - 
+          - Run
+          - 
+          - Character
+          isEmpty: 0
+        - rowIndex: 25
+          strings:
+          - 
+          - Roboko
+          - 
+          - CharacterRight
+          - 
+          - 
+          - 
+          - Fade out all character
+          isEmpty: 0
+        - rowIndex: 26
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 27
+          strings:
+          - EndSceneGallery
+          isEmpty: 0
+        - rowIndex: 28
+          strings:
+          - Jump
+          - '*Basic'
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialCharacter
+        type: 1
+        textLength: 575
+        headerRow: 0
+    - key: TutorialBG
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings:
+          - Bg
+          - BG1
+          isEmpty: 0
+        - rowIndex: 2
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - BG On
+          isEmpty: 0
+        - rowIndex: 3
+          strings:
+          - Bg
+          - BG2
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Change BG
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "Change BG\u3000with fade out effect"
+          isEmpty: 0
+        - rowIndex: 6
+          strings:
+          - FadeOut
+          - 
+          - 
+          - 
+          - 
+          - 
+          - .8
+          isEmpty: 0
+        - rowIndex: 7
+          strings:
+          - Bg
+          - BG1
+          isEmpty: 0
+        - rowIndex: 8
+          strings:
+          - Wait
+          - 
+          - 
+          - 
+          - 
+          - 
+          - .2
+          isEmpty: 0
+        - rowIndex: 9
+          strings:
+          - FadeIn
+          - 
+          - 
+          - 
+          - 
+          - 
+          - .8
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Color Fade
+          isEmpty: 0
+        - rowIndex: 11
+          strings:
+          - FadeOut
+          - 
+          - '#fccde5'
+          - 
+          - 
+          - 
+          - .8
+          isEmpty: 0
+        - rowIndex: 12
+          strings:
+          - Bg
+          - BG2
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - Wait
+          - 
+          - 
+          - 
+          - 
+          - 
+          - .2
+          isEmpty: 0
+        - rowIndex: 14
+          strings:
+          - FadeIn
+          - 
+          - '#fccde5'
+          - 
+          - 
+          - 
+          - .8
+          isEmpty: 0
+        - rowIndex: 15
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Color Fade end
+          isEmpty: 0
+        - rowIndex: 16
+          strings:
+          - BgOff
+          - 
+          - 
+          - 
+          - 
+          - 
+          - .2
+          isEmpty: 0
+        - rowIndex: 17
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Bg Off
+          isEmpty: 0
+        - rowIndex: 18
+          strings:
+          - BgEvent
+          - Event1
+          isEmpty: 0
+        - rowIndex: 19
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - BgEvent On.  Character disp off
+          isEmpty: 0
+        - rowIndex: 20
+          strings:
+          - BgEvent
+          - Event2
+          isEmpty: 0
+        - rowIndex: 21
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Change BgEvent
+          isEmpty: 0
+        - rowIndex: 22
+          strings:
+          - BgEvent
+          - Event2-2
+          isEmpty: 0
+        - rowIndex: 23
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Change BgEvent2
+          isEmpty: 0
+        - rowIndex: 24
+          strings:
+          - BgEventOff
+          - 
+          - 
+          - 
+          - 
+          - 
+          - .2
+          isEmpty: 0
+        - rowIndex: 25
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - BgEvent Off. Character disp off
+          isEmpty: 0
+        - rowIndex: 26
+          strings:
+          - Bg
+          - BG1
+          isEmpty: 0
+        - rowIndex: 27
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - BG On. Character disp on
+          isEmpty: 0
+        - rowIndex: 28
+          strings:
+          - EndSceneGallery
+          isEmpty: 0
+        - rowIndex: 29
+          strings:
+          - Jump
+          - '*Basic'
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialBG
+        type: 1
+        textLength: 466
+        headerRow: 0
+    - key: TutorialSound
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings:
+          - Bg
+          - BG1
+          isEmpty: 0
+        - rowIndex: 2
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Sound test
+          isEmpty: 0
+        - rowIndex: 3
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - voice test1
+          - voice_test1.wav
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - voice test2
+          - voice_test2.wav
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - voice test3
+          - voice_test3.wav
+          isEmpty: 0
+        - rowIndex: 6
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - voice test4
+          - voice_test4.wav
+          isEmpty: 0
+        - rowIndex: 7
+          strings: []
+          isEmpty: 1
+        - rowIndex: 8
+          strings:
+          - Se
+          - Shoot
+          isEmpty: 0
+        - rowIndex: 9
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play shoot SE
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - Se
+          - Explosion
+          isEmpty: 0
+        - rowIndex: 11
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play explosion SE
+          isEmpty: 0
+        - rowIndex: 12
+          strings:
+          - Bgm
+          - BGM1
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play BGM1
+          isEmpty: 0
+        - rowIndex: 14
+          strings:
+          - Bgm
+          - BGM2
+          isEmpty: 0
+        - rowIndex: 15
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play BGM2
+          isEmpty: 0
+        - rowIndex: 16
+          strings:
+          - Ambience
+          - Ambience2
+          - FALSE
+          isEmpty: 0
+        - rowIndex: 17
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play Ambience sound. No loop
+          isEmpty: 0
+        - rowIndex: 18
+          strings:
+          - Ambience
+          - Ambience1
+          isEmpty: 0
+        - rowIndex: 19
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play Ambience sound. Loop
+          isEmpty: 0
+        - rowIndex: 20
+          strings:
+          - StopAmbience
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 1
+          isEmpty: 0
+        - rowIndex: 21
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Stop Ambience sound
+          isEmpty: 0
+        - rowIndex: 22
+          strings:
+          - StopBgm
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 1
+          isEmpty: 0
+        - rowIndex: 23
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Stop BGM
+          isEmpty: 0
+        - rowIndex: 24
+          strings:
+          - Se
+          - Explosion
+          isEmpty: 0
+        - rowIndex: 25
+          strings:
+          - Bgm
+          - BGM1
+          isEmpty: 0
+        - rowIndex: 26
+          strings:
+          - Ambience
+          - Ambience1
+          isEmpty: 0
+        - rowIndex: 27
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Play Sound
+          isEmpty: 0
+        - rowIndex: 28
+          strings:
+          - StopSound
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 1
+          isEmpty: 0
+        - rowIndex: 29
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Stop all aound
+          isEmpty: 0
+        - rowIndex: 30
+          strings:
+          - EndSceneGallery
+          isEmpty: 0
+        - rowIndex: 31
+          strings:
+          - Jump
+          - '*Basic'
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialSound
+        type: 1
+        textLength: 558
+        headerRow: 0
+    - key: TutorialTween
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Tween sample
+          isEmpty: 0
+        - rowIndex: 2
+          strings: []
+          isEmpty: 1
+        - rowIndex: 3
+          strings:
+          - '*TweenTop'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "*\u30DF\u30CB\u30B2\u30FC\u30E0\u5185\u9078\u629E"
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - Selection
+          - '*Tween1'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Basic
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u3046\u305F\u3053\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u3046\u305F\u3053\u3055\u3093"
+          isEmpty: 0
+        - rowIndex: 6
+          strings:
+          - Selection
+          - '*Tween2'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Advance
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          - Selection
+          - "*\u30D5\u30E9\u30B0\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u300C\u30E9\u30F3\u300D"
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "\u30E9\u30F3\u3061\u3083\u3093"
+          isEmpty: 0
+        - rowIndex: 7
+          strings:
+          - Selection
+          - '*TopMenu'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Back
+          isEmpty: 0
+        - rowIndex: 8
+          strings: []
+          isEmpty: 1
+        - rowIndex: 9
+          strings:
+          - '*Tween1'
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 11
+          strings:
+          - Selection
+          - '*TweenMove'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Position
+          isEmpty: 0
+        - rowIndex: 12
+          strings:
+          - Selection
+          - '*TweenRotate'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Rotate
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - Selection
+          - '*TweenScale'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Scale
+          isEmpty: 0
+        - rowIndex: 14
+          strings:
+          - Selection
+          - '*TweenColor'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Color
+          isEmpty: 0
+        - rowIndex: 15
+          strings:
+          - Selection
+          - '*TweenTop'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Back
+          isEmpty: 0
+        - rowIndex: 16
+          strings: []
+          isEmpty: 1
+        - rowIndex: 17
+          strings:
+          - '*Tween2'
+          isEmpty: 0
+        - rowIndex: 18
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 19
+          strings:
+          - Selection
+          - '*TweenEaseType'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - EaseType
+          isEmpty: 0
+        - rowIndex: 20
+          strings:
+          - Selection
+          - '*TweenLoopType'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Loop
+          isEmpty: 0
+        - rowIndex: 21
+          strings:
+          - Selection
+          - '*TweenAdd'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Combination
+          isEmpty: 0
+        - rowIndex: 22
+          strings:
+          - Selection
+          - '*TweenTop'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Back
+          isEmpty: 0
+        - rowIndex: 23
+          strings: []
+          isEmpty: 1
+        - rowIndex: 24
+          strings: []
+          isEmpty: 1
+        - rowIndex: 25
+          strings: []
+          isEmpty: 1
+        - rowIndex: 26
+          strings: []
+          isEmpty: 1
+        - rowIndex: 27
+          strings:
+          - '*TweenMove'
+          isEmpty: 0
+        - rowIndex: 28
+          strings:
+          - 
+          - Utako
+          - 
+          - CharacterLeft
+          - 
+          - 
+          - 
+          - Position sample
+          isEmpty: 0
+        - rowIndex: 29
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - MoveFrom
+          isEmpty: 0
+        - rowIndex: 30
+          strings:
+          - Tween
+          - Utako
+          - MoveFrom
+          - x=200 islocal=true
+          isEmpty: 0
+        - rowIndex: 31
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - MoveTo
+          isEmpty: 0
+        - rowIndex: 32
+          strings:
+          - Tween
+          - Utako
+          - MoveTo
+          - x=200 islocal=true
+          isEmpty: 0
+        - rowIndex: 33
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - MoveBy
+          isEmpty: 0
+        - rowIndex: 34
+          strings:
+          - Tween
+          - Utako
+          - MoveBy
+          - x=200
+          isEmpty: 0
+        - rowIndex: 35
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - To center
+          isEmpty: 0
+        - rowIndex: 36
+          strings:
+          - Tween
+          - Utako
+          - MoveTo
+          - x=0
+          isEmpty: 0
+        - rowIndex: 37
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - To start poistion
+          isEmpty: 0
+        - rowIndex: 38
+          strings:
+          - Tween
+          - Utako
+          - MoveTo
+          - x=0 islocal=true
+          isEmpty: 0
+        - rowIndex: 39
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - PunchPosition
+          isEmpty: 0
+        - rowIndex: 40
+          strings:
+          - Tween
+          - Utako
+          - PunchPosition
+          - y=50
+          isEmpty: 0
+        - rowIndex: 41
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ShakePosition
+          isEmpty: 0
+        - rowIndex: 42
+          strings:
+          - Tween
+          - Utako
+          - ShakePosition
+          - x= 50
+          isEmpty: 0
+        - rowIndex: 43
+          strings:
+          - Jump
+          - '*Tween1'
+          isEmpty: 0
+        - rowIndex: 44
+          strings: []
+          isEmpty: 1
+        - rowIndex: 45
+          strings:
+          - '*TweenRotate'
+          isEmpty: 0
+        - rowIndex: 46
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - RotateFrom sample
+          isEmpty: 0
+        - rowIndex: 47
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - RotateFrom
+          isEmpty: 0
+        - rowIndex: 48
+          strings:
+          - Tween
+          - Run
+          - RotateFrom
+          - z=90
+          isEmpty: 0
+        - rowIndex: 49
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - RotateTo
+          isEmpty: 0
+        - rowIndex: 50
+          strings:
+          - Tween
+          - Run
+          - RotateTo
+          - z=45
+          isEmpty: 0
+        - rowIndex: 51
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - RotateBy
+          isEmpty: 0
+        - rowIndex: 52
+          strings:
+          - Tween
+          - Run
+          - RotateBy
+          - z=0.1
+          isEmpty: 0
+        - rowIndex: 53
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - To start rorate
+          isEmpty: 0
+        - rowIndex: 54
+          strings:
+          - Tween
+          - Run
+          - RotateTo
+          - z=0
+          isEmpty: 0
+        - rowIndex: 55
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - PunchRotation
+          isEmpty: 0
+        - rowIndex: 56
+          strings:
+          - Tween
+          - Run
+          - PunchRotation
+          - z=45
+          isEmpty: 0
+        - rowIndex: 57
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ShakeRotation
+          isEmpty: 0
+        - rowIndex: 58
+          strings:
+          - Tween
+          - Run
+          - ShakeRotation
+          - y=45
+          isEmpty: 0
+        - rowIndex: 59
+          strings:
+          - Jump
+          - '*Tween1'
+          isEmpty: 0
+        - rowIndex: 60
+          strings: []
+          isEmpty: 1
+        - rowIndex: 61
+          strings:
+          - '*TweenScale'
+          isEmpty: 0
+        - rowIndex: 62
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Scale sample
+          isEmpty: 0
+        - rowIndex: 63
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ScaleFrom
+          isEmpty: 0
+        - rowIndex: 64
+          strings:
+          - Tween
+          - Roboko
+          - ScaleFrom
+          - x=0 y=0
+          isEmpty: 0
+        - rowIndex: 65
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ScaleTo
+          isEmpty: 0
+        - rowIndex: 66
+          strings:
+          - Tween
+          - Roboko
+          - ScaleTo
+          - x=1.5 y=0.8
+          isEmpty: 0
+        - rowIndex: 67
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ScaleBy
+          isEmpty: 0
+        - rowIndex: 68
+          strings:
+          - Tween
+          - Roboko
+          - ScaleBy
+          - x=-1
+          isEmpty: 0
+        - rowIndex: 69
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - To start scale
+          isEmpty: 0
+        - rowIndex: 70
+          strings:
+          - Tween
+          - Roboko
+          - ScaleTo
+          - x=1 y=1
+          isEmpty: 0
+        - rowIndex: 71
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - PunchScale
+          isEmpty: 0
+        - rowIndex: 72
+          strings:
+          - Tween
+          - Roboko
+          - PunchScale
+          - x=2 y = 2
+          isEmpty: 0
+        - rowIndex: 73
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ShakeScale
+          isEmpty: 0
+        - rowIndex: 74
+          strings:
+          - Tween
+          - Roboko
+          - ShakeScale
+          - x=1.1 y = 1.1
+          isEmpty: 0
+        - rowIndex: 75
+          strings:
+          - Jump
+          - '*Tween1'
+          isEmpty: 0
+        - rowIndex: 76
+          strings: []
+          isEmpty: 1
+        - rowIndex: 77
+          strings:
+          - '*TweenColor'
+          isEmpty: 0
+        - rowIndex: 78
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Color Sample
+          isEmpty: 0
+        - rowIndex: 79
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ColorFrom
+          isEmpty: 0
+        - rowIndex: 80
+          strings:
+          - Tween
+          - Run
+          - ColorFrom
+          - alpha=0
+          isEmpty: 0
+        - rowIndex: 81
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ColorTo
+          isEmpty: 0
+        - rowIndex: 82
+          strings:
+          - Tween
+          - Run
+          - ColorTo
+          - color=red
+          isEmpty: 0
+        - rowIndex: 83
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ColorTo
+          isEmpty: 0
+        - rowIndex: 84
+          strings:
+          - Tween
+          - Run
+          - ColorTo
+          - color=white
+          isEmpty: 0
+        - rowIndex: 85
+          strings:
+          - Jump
+          - '*Tween1'
+          isEmpty: 0
+        - rowIndex: 86
+          strings: []
+          isEmpty: 1
+        - rowIndex: 87
+          strings: []
+          isEmpty: 1
+        - rowIndex: 88
+          strings:
+          - '*TweenEaseType'
+          isEmpty: 0
+        - rowIndex: 89
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - EaseIn sample
+          isEmpty: 0
+        - rowIndex: 90
+          strings:
+          - Sprite
+          - ball1
+          - Ball
+          - 
+          - -300
+          - 250
+          isEmpty: 0
+        - rowIndex: 91
+          strings:
+          - Sprite
+          - ball2
+          - Ball
+          - 
+          - -300
+          - 200
+          isEmpty: 0
+        - rowIndex: 92
+          strings:
+          - Sprite
+          - ball3
+          - Ball
+          - 
+          - -300
+          - 150
+          isEmpty: 0
+        - rowIndex: 93
+          strings:
+          - Sprite
+          - ball4
+          - Ball
+          - 
+          - -300
+          - 100
+          isEmpty: 0
+        - rowIndex: 94
+          strings:
+          - Sprite
+          - ball5
+          - Ball
+          - 
+          - -300
+          - 50
+          isEmpty: 0
+        - rowIndex: 95
+          strings:
+          - Sprite
+          - ball6
+          - Ball
+          - 
+          - -300
+          - 0
+          isEmpty: 0
+        - rowIndex: 96
+          strings:
+          - Sprite
+          - ball7
+          - Ball
+          - 
+          - -300
+          - -50
+          isEmpty: 0
+        - rowIndex: 97
+          strings:
+          - Sprite
+          - ball8
+          - Ball
+          - 
+          - -300
+          - -100
+          isEmpty: 0
+        - rowIndex: 98
+          strings:
+          - Sprite
+          - ball9
+          - Ball
+          - 
+          - -300
+          - -150
+          isEmpty: 0
+        - rowIndex: 99
+          strings:
+          - Sprite
+          - ball10
+          - Ball
+          - 
+          - -300
+          - -200
+          isEmpty: 0
+        - rowIndex: 100
+          strings:
+          - Sprite
+          - ball11
+          - Ball
+          - 
+          - -300
+          - -250
+          isEmpty: 0
+        - rowIndex: 101
+          strings:
+          - Tween
+          - ball1
+          - MoveBy
+          - time=3 x=600
+          - linear
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 102
+          strings:
+          - Tween
+          - ball2
+          - MoveBy
+          - time=3 x=600
+          - easeInQuad
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 103
+          strings:
+          - Tween
+          - ball3
+          - MoveBy
+          - time=3 x=600
+          - easeInCubic
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 104
+          strings:
+          - Tween
+          - ball4
+          - MoveBy
+          - time=3 x=600
+          - easeInQuart
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 105
+          strings:
+          - Tween
+          - ball5
+          - MoveBy
+          - time=3 x=600
+          - easeInQuint
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 106
+          strings:
+          - Tween
+          - ball6
+          - MoveBy
+          - time=3 x=600
+          - easeInSine
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 107
+          strings:
+          - Tween
+          - ball7
+          - MoveBy
+          - time=3 x=600
+          - easeInExpo
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 108
+          strings:
+          - Tween
+          - ball8
+          - MoveBy
+          - time=3 x=600
+          - easeInCirc
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 109
+          strings:
+          - Tween
+          - ball9
+          - MoveBy
+          - time=3 x=600
+          - easeInBounce
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 110
+          strings:
+          - Tween
+          - ball10
+          - MoveBy
+          - time=3 x=600
+          - easeInBack
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 111
+          strings:
+          - Tween
+          - ball11
+          - MoveBy
+          - time=3 x=600
+          - easeInElastic
+          isEmpty: 0
+        - rowIndex: 112
+          strings:
+          - SpriteOff
+          isEmpty: 0
+        - rowIndex: 113
+          strings: []
+          isEmpty: 1
+        - rowIndex: 114
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - EaseOut sample
+          isEmpty: 0
+        - rowIndex: 115
+          strings:
+          - Sprite
+          - ball1
+          - Ball
+          - 
+          - -300
+          - 250
+          isEmpty: 0
+        - rowIndex: 116
+          strings:
+          - Sprite
+          - ball2
+          - Ball
+          - 
+          - -300
+          - 200
+          isEmpty: 0
+        - rowIndex: 117
+          strings:
+          - Sprite
+          - ball3
+          - Ball
+          - 
+          - -300
+          - 150
+          isEmpty: 0
+        - rowIndex: 118
+          strings:
+          - Sprite
+          - ball4
+          - Ball
+          - 
+          - -300
+          - 100
+          isEmpty: 0
+        - rowIndex: 119
+          strings:
+          - Sprite
+          - ball5
+          - Ball
+          - 
+          - -300
+          - 50
+          isEmpty: 0
+        - rowIndex: 120
+          strings:
+          - Sprite
+          - ball6
+          - Ball
+          - 
+          - -300
+          - 0
+          isEmpty: 0
+        - rowIndex: 121
+          strings:
+          - Sprite
+          - ball7
+          - Ball
+          - 
+          - -300
+          - -50
+          isEmpty: 0
+        - rowIndex: 122
+          strings:
+          - Sprite
+          - ball8
+          - Ball
+          - 
+          - -300
+          - -100
+          isEmpty: 0
+        - rowIndex: 123
+          strings:
+          - Sprite
+          - ball9
+          - Ball
+          - 
+          - -300
+          - -150
+          isEmpty: 0
+        - rowIndex: 124
+          strings:
+          - Sprite
+          - ball10
+          - Ball
+          - 
+          - -300
+          - -200
+          isEmpty: 0
+        - rowIndex: 125
+          strings:
+          - Sprite
+          - ball11
+          - Ball
+          - 
+          - -300
+          - -250
+          isEmpty: 0
+        - rowIndex: 126
+          strings:
+          - Tween
+          - ball1
+          - MoveBy
+          - time=2 x=600
+          - linear
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 127
+          strings:
+          - Tween
+          - ball2
+          - MoveBy
+          - time=2 x=600
+          - easeOutQuad
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 128
+          strings:
+          - Tween
+          - ball3
+          - MoveBy
+          - time=2 x=600
+          - easeOutCubic
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 129
+          strings:
+          - Tween
+          - ball4
+          - MoveBy
+          - time=2 x=600
+          - easeOutQuart
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 130
+          strings:
+          - Tween
+          - ball5
+          - MoveBy
+          - time=2 x=600
+          - easeOutQuint
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 131
+          strings:
+          - Tween
+          - ball6
+          - MoveBy
+          - time=2 x=600
+          - easeOutSine
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 132
+          strings:
+          - Tween
+          - ball7
+          - MoveBy
+          - time=2 x=600
+          - easeOutExpo
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 133
+          strings:
+          - Tween
+          - ball8
+          - MoveBy
+          - time=2 x=600
+          - easeOutCirc
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 134
+          strings:
+          - Tween
+          - ball9
+          - MoveBy
+          - time=2 x=600
+          - easeOutBounce
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 135
+          strings:
+          - Tween
+          - ball10
+          - MoveBy
+          - time=2 x=600
+          - easeOutBack
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 136
+          strings:
+          - Tween
+          - ball11
+          - MoveBy
+          - time=3 x=600
+          - easeOutElastic
+          isEmpty: 0
+        - rowIndex: 137
+          strings:
+          - SpriteOff
+          isEmpty: 0
+        - rowIndex: 138
+          strings: []
+          isEmpty: 1
+        - rowIndex: 139
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - EaseInOut sample
+          isEmpty: 0
+        - rowIndex: 140
+          strings:
+          - Sprite
+          - ball1
+          - Ball
+          - 
+          - -300
+          - 250
+          isEmpty: 0
+        - rowIndex: 141
+          strings:
+          - Sprite
+          - ball2
+          - Ball
+          - 
+          - -300
+          - 200
+          isEmpty: 0
+        - rowIndex: 142
+          strings:
+          - Sprite
+          - ball3
+          - Ball
+          - 
+          - -300
+          - 150
+          isEmpty: 0
+        - rowIndex: 143
+          strings:
+          - Sprite
+          - ball4
+          - Ball
+          - 
+          - -300
+          - 100
+          isEmpty: 0
+        - rowIndex: 144
+          strings:
+          - Sprite
+          - ball5
+          - Ball
+          - 
+          - -300
+          - 50
+          isEmpty: 0
+        - rowIndex: 145
+          strings:
+          - Sprite
+          - ball6
+          - Ball
+          - 
+          - -300
+          - 0
+          isEmpty: 0
+        - rowIndex: 146
+          strings:
+          - Sprite
+          - ball7
+          - Ball
+          - 
+          - -300
+          - -50
+          isEmpty: 0
+        - rowIndex: 147
+          strings:
+          - Sprite
+          - ball8
+          - Ball
+          - 
+          - -300
+          - -100
+          isEmpty: 0
+        - rowIndex: 148
+          strings:
+          - Sprite
+          - ball9
+          - Ball
+          - 
+          - -300
+          - -150
+          isEmpty: 0
+        - rowIndex: 149
+          strings:
+          - Sprite
+          - ball10
+          - Ball
+          - 
+          - -300
+          - -200
+          isEmpty: 0
+        - rowIndex: 150
+          strings:
+          - Sprite
+          - ball11
+          - Ball
+          - 
+          - -300
+          - -250
+          isEmpty: 0
+        - rowIndex: 151
+          strings:
+          - Tween
+          - ball1
+          - MoveBy
+          - time=2 x=600
+          - linear
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 152
+          strings:
+          - Tween
+          - ball2
+          - MoveBy
+          - time=2 x=600
+          - easeInOutQuad
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 153
+          strings:
+          - Tween
+          - ball3
+          - MoveBy
+          - time=2 x=600
+          - easeInOutCubic
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 154
+          strings:
+          - Tween
+          - ball4
+          - MoveBy
+          - time=2 x=600
+          - easeInOutQuart
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 155
+          strings:
+          - Tween
+          - ball5
+          - MoveBy
+          - time=2 x=600
+          - easeInOutQuint
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 156
+          strings:
+          - Tween
+          - ball6
+          - MoveBy
+          - time=2 x=600
+          - easeInOutSine
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 157
+          strings:
+          - Tween
+          - ball7
+          - MoveBy
+          - time=2 x=600
+          - easeInOutExpo
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 158
+          strings:
+          - Tween
+          - ball8
+          - MoveBy
+          - time=2 x=600
+          - easeInOutCirc
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 159
+          strings:
+          - Tween
+          - ball9
+          - MoveBy
+          - time=2 x=600
+          - easeInOutBounce
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 160
+          strings:
+          - Tween
+          - ball10
+          - MoveBy
+          - time=2 x=600
+          - easeInOutBack
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 161
+          strings:
+          - Tween
+          - ball11
+          - MoveBy
+          - time=3 x=600
+          - easeInOutElastic
+          isEmpty: 0
+        - rowIndex: 162
+          strings:
+          - SpriteOff
+          isEmpty: 0
+        - rowIndex: 163
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Other sample
+          isEmpty: 0
+        - rowIndex: 164
+          strings:
+          - Sprite
+          - ball1
+          - Ball
+          - 
+          - -300
+          - 250
+          isEmpty: 0
+        - rowIndex: 165
+          strings:
+          - Sprite
+          - ball2
+          - Ball
+          - 
+          - -300
+          - 200
+          isEmpty: 0
+        - rowIndex: 166
+          strings:
+          - Tween
+          - ball1
+          - MoveBy
+          - time=2 x=600
+          - linear
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 167
+          strings:
+          - Tween
+          - ball2
+          - MoveBy
+          - time=2 x=600
+          - spring
+          isEmpty: 0
+        - rowIndex: 168
+          strings:
+          - SpriteOff
+          isEmpty: 0
+        - rowIndex: 169
+          strings: []
+          isEmpty: 1
+        - rowIndex: 170
+          strings:
+          - Jump
+          - '*Tween2'
+          isEmpty: 0
+        - rowIndex: 171
+          strings: []
+          isEmpty: 1
+        - rowIndex: 172
+          strings: []
+          isEmpty: 1
+        - rowIndex: 173
+          strings:
+          - '*TweenLoopType'
+          isEmpty: 0
+        - rowIndex: 174
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Loop sample
+          isEmpty: 0
+        - rowIndex: 175
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Loop x 3
+          isEmpty: 0
+        - rowIndex: 176
+          strings:
+          - Tween
+          - Roboko
+          - RotateBy
+          - z=1
+          - 
+          - loop=3
+          isEmpty: 0
+        - rowIndex: 177
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - ping pong loop x 6
+          isEmpty: 0
+        - rowIndex: 178
+          strings:
+          - Tween
+          - Roboko
+          - MoveBy
+          - y=50
+          - 
+          - pingPong=6
+          isEmpty: 0
+        - rowIndex: 179
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - End loop
+          isEmpty: 0
+        - rowIndex: 180
+          strings: []
+          isEmpty: 1
+        - rowIndex: 181
+          strings:
+          - Jump
+          - '*Tween2'
+          isEmpty: 0
+        - rowIndex: 182
+          strings: []
+          isEmpty: 1
+        - rowIndex: 183
+          strings:
+          - '*TweenAdd'
+          isEmpty: 0
+        - rowIndex: 184
+          strings:
+          - 
+          - Run
+          - 
+          - CharacterLeft
+          - 
+          - 
+          - 
+          - Combination sample
+          isEmpty: 0
+        - rowIndex: 185
+          strings:
+          - Tween
+          - Run
+          - MoveAdd
+          - time=3 x=400
+          - linear
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 186
+          strings:
+          - Tween
+          - Run
+          - ColorTo
+          - time=3 alpha=0
+          - 
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 187
+          strings:
+          - Tween
+          - Run
+          - MoveBy
+          - time=0.375 y=50
+          - easeOutSine
+          - pingPong=8
+          isEmpty: 0
+        - rowIndex: 188
+          strings:
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Combination sample 2
+          isEmpty: 0
+        - rowIndex: 189
+          strings:
+          - Tween
+          - Run
+          - ColorTo
+          - time=3 alpha=1
+          - 
+          - 
+          - Add
+          isEmpty: 0
+        - rowIndex: 190
+          strings:
+          - Tween
+          - Run
+          - RotateAdd
+          - time=1 y=360
+          - linear
+          - loop=3
+          - Add
+          isEmpty: 0
+        - rowIndex: 191
+          strings:
+          - Tween
+          - Run
+          - MoveTo
+          - time=3 x=0 islocal=true
+          - linear
+          isEmpty: 0
+        - rowIndex: 192
+          strings:
+          - Jump
+          - '*Tween2'
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialTween
+        type: 1
+        textLength: 6264
+        headerRow: 0
+    - key: TutorialSendMessage
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings:
+          - 
+          - Utako
+          - 
+          - Character
+          isEmpty: 0
+        - rowIndex: 2
+          strings:
+          - 
+          - Run
+          - 
+          - CharacterLeft
+          isEmpty: 0
+        - rowIndex: 3
+          strings:
+          - 
+          - Roboko
+          - 
+          - CharacterRight
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - SendMessage sample
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - BgOff
+          isEmpty: 0
+        - rowIndex: 6
+          strings:
+          - SendMessage
+          - 3DOn
+          isEmpty: 0
+        - rowIndex: 7
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 3DOn
+          isEmpty: 0
+        - rowIndex: 8
+          strings:
+          - SendMessage
+          - Model
+          - Robot Kyle
+          isEmpty: 0
+        - rowIndex: 9
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - 
+          - Roboko
+          - 
+          - CharacterRight
+          - 
+          - 
+          - 
+          - 3D modle on
+          isEmpty: 0
+        - rowIndex: 11
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 12
+          strings:
+          - SendMessage
+          - ModelOff
+          - Robot Kyle
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - SendMessage
+          - Model
+          - Constructor
+          isEmpty: 0
+        - rowIndex: 14
+          strings:
+          - 
+          - Utako
+          - 
+          - CharacterRight
+          - 
+          - 
+          - 
+          - Change Model
+          isEmpty: 0
+        - rowIndex: 15
+          strings:
+          - SendMessage
+          - RotateOn
+          - 25
+          isEmpty: 0
+        - rowIndex: 16
+          strings:
+          - 
+          - Utako
+          - 
+          - CharacterRight
+          - 
+          - 
+          - 
+          - Rotate SkyBox
+          isEmpty: 0
+        - rowIndex: 17
+          strings:
+          - SendMessage
+          - Model
+          - Constructor
+          - run
+          isEmpty: 0
+        - rowIndex: 18
+          strings:
+          - 
+          - Utako
+          - 
+          - CharacterRight
+          - 
+          - 
+          - 
+          - Change animation
+          isEmpty: 0
+        - rowIndex: 19
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 20
+          strings:
+          - SendMessage
+          - RotateOff
+          isEmpty: 0
+        - rowIndex: 21
+          strings:
+          - SendMessage
+          - ModelOff
+          - Robot Kyle
+          isEmpty: 0
+        - rowIndex: 22
+          strings:
+          - SendMessage
+          - ModelOff
+          - Constructor
+          isEmpty: 0
+        - rowIndex: 23
+          strings:
+          - SendMessage
+          - 3DOff
+          isEmpty: 0
+        - rowIndex: 24
+          strings: []
+          isEmpty: 1
+        - rowIndex: 25
+          strings: []
+          isEmpty: 1
+        - rowIndex: 26
+          strings:
+          - Jump
+          - '*TopMenu'
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialSendMessage
+        type: 1
+        textLength: 559
+        headerRow: 0
+    - key: TutorialMiniGame
+      grid:
+        rows:
+        - rowIndex: 0
+          strings:
+          - Command
+          - Arg1
+          - Arg2
+          - Arg3
+          - Arg4
+          - Arg5
+          - Arg6
+          - Text
+          - Voice
+          - VoiceVersion
+          isEmpty: 0
+        - rowIndex: 1
+          strings: []
+          isEmpty: 1
+        - rowIndex: 2
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 3
+          strings:
+          - Selection
+          - '*StartMiniGame'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - "Start\u3000miniGame"
+          isEmpty: 0
+        - rowIndex: 4
+          strings:
+          - Selection
+          - '*ResetParameter'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Reset parameter
+          isEmpty: 0
+        - rowIndex: 5
+          strings:
+          - Selection
+          - '*TopMenu'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Back
+          isEmpty: 0
+        - rowIndex: 6
+          strings: []
+          isEmpty: 1
+        - rowIndex: 7
+          strings: []
+          isEmpty: 1
+        - rowIndex: 8
+          strings:
+          - '*ResetParameter'
+          isEmpty: 0
+        - rowIndex: 9
+          strings:
+          - Param
+          - flag_utako=false
+          isEmpty: 0
+        - rowIndex: 10
+          strings:
+          - Param
+          - flag_run=false
+          isEmpty: 0
+        - rowIndex: 11
+          strings:
+          - Param
+          - flag_roboko=false
+          isEmpty: 0
+        - rowIndex: 12
+          strings:
+          - Param
+          - select_utako=false
+          isEmpty: 0
+        - rowIndex: 13
+          strings:
+          - Param
+          - select_run=false
+          isEmpty: 0
+        - rowIndex: 14
+          strings:
+          - Param
+          - select_roboko=false
+          isEmpty: 0
+        - rowIndex: 15
+          strings:
+          - Param
+          - point_roboko=0
+          isEmpty: 0
+        - rowIndex: 16
+          strings:
+          - Jump
+          - '*TutorialMiniGame'
+          isEmpty: 0
+        - rowIndex: 17
+          strings: []
+          isEmpty: 1
+        - rowIndex: 18
+          strings:
+          - '*StartMiniGame'
+          isEmpty: 0
+        - rowIndex: 19
+          strings:
+          - 
+          - Utako
+          - 
+          - Character
+          isEmpty: 0
+        - rowIndex: 20
+          strings:
+          - 
+          - Run
+          - 
+          - CharacterLeft
+          isEmpty: 0
+        - rowIndex: 21
+          strings:
+          - 
+          - Roboko
+          - 
+          - CharacterRight
+          isEmpty: 0
+        - rowIndex: 22
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Select character
+          isEmpty: 0
+        - rowIndex: 23
+          strings:
+          - '*SelectInMiniGame'
+          isEmpty: 0
+        - rowIndex: 24
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 25
+          strings:
+          - Selection
+          - '*SelectUtako'
+          - 
+          - select_utako=true
+          - 
+          - 
+          - 
+          - Utako
+          isEmpty: 0
+        - rowIndex: 26
+          strings:
+          - Selection
+          - '*SelectRun'
+          - 
+          - select_run=true
+          - 
+          - 
+          - 
+          - Run
+          isEmpty: 0
+        - rowIndex: 27
+          strings:
+          - Selection
+          - '*SelectRoboko'
+          - 
+          - select_roboko=true
+          - 
+          - 
+          - 
+          - Roboko
+          isEmpty: 0
+        - rowIndex: 28
+          strings:
+          - Selection
+          - '*MiniGameEnd'
+          - flag_utako||flag_run||flag_roboko
+          - 
+          - 
+          - 
+          - 
+          - Ending
+          isEmpty: 0
+        - rowIndex: 29
+          strings:
+          - Selection
+          - '*TutorialMiniGame'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Back
+          isEmpty: 0
+        - rowIndex: 30
+          strings: []
+          isEmpty: 1
+        - rowIndex: 31
+          strings: []
+          isEmpty: 1
+        - rowIndex: 32
+          strings:
+          - '*SelectUtako'
+          isEmpty: 0
+        - rowIndex: 33
+          strings:
+          - Param
+          - flag_utako=true
+          isEmpty: 0
+        - rowIndex: 34
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 'Ending flag on. Thanks! '
+          isEmpty: 0
+        - rowIndex: 35
+          strings:
+          - Jump
+          - '*SelectInMiniGame'
+          isEmpty: 0
+        - rowIndex: 36
+          strings: []
+          isEmpty: 1
+        - rowIndex: 37
+          strings: []
+          isEmpty: 1
+        - rowIndex: 38
+          strings:
+          - '*SelectRun'
+          isEmpty: 0
+        - rowIndex: 39
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Question!
+          isEmpty: 0
+        - rowIndex: 40
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Do you select me first?
+          isEmpty: 0
+        - rowIndex: 41
+          strings:
+          - Selection
+          - '*SelectRunYes'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Yes
+          isEmpty: 0
+        - rowIndex: 42
+          strings:
+          - Selection
+          - '*SelectRunNo'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - No
+          isEmpty: 0
+        - rowIndex: 43
+          strings: []
+          isEmpty: 1
+        - rowIndex: 44
+          strings:
+          - '*SelectRunYes'
+          isEmpty: 0
+        - rowIndex: 45
+          strings:
+          - Jump
+          - '*SelectRunYes_Liar'
+          - select_utako||select_roboko
+          isEmpty: 0
+        - rowIndex: 46
+          strings:
+          - Jump
+          - '*SelectRunYes_Truth'
+          isEmpty: 0
+        - rowIndex: 47
+          strings: []
+          isEmpty: 1
+        - rowIndex: 48
+          strings:
+          - '*SelectRunYes_Truth'
+          isEmpty: 0
+        - rowIndex: 49
+          strings:
+          - Param
+          - flag_run=true
+          isEmpty: 0
+        - rowIndex: 50
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 'Ending flag on. Thanks! '
+          isEmpty: 0
+        - rowIndex: 51
+          strings:
+          - Jump
+          - '*SelectInMiniGame'
+          isEmpty: 0
+        - rowIndex: 52
+          strings: []
+          isEmpty: 1
+        - rowIndex: 53
+          strings:
+          - '*SelectRunYes_Liar'
+          isEmpty: 0
+        - rowIndex: 54
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - You've said a lie
+          isEmpty: 0
+        - rowIndex: 55
+          strings:
+          - Jump
+          - '*SelectInMiniGame'
+          isEmpty: 0
+        - rowIndex: 56
+          strings: []
+          isEmpty: 1
+        - rowIndex: 57
+          strings: []
+          isEmpty: 1
+        - rowIndex: 58
+          strings:
+          - '*SelectRunNo'
+          isEmpty: 0
+        - rowIndex: 59
+          strings:
+          - Jump
+          - '*SelectRunNo_Truth'
+          - select_utako||select_roboko
+          isEmpty: 0
+        - rowIndex: 60
+          strings:
+          - Jump
+          - '*SelectRunNo_Liar'
+          isEmpty: 0
+        - rowIndex: 61
+          strings: []
+          isEmpty: 1
+        - rowIndex: 62
+          strings:
+          - '*SelectRunNo_Liar'
+          isEmpty: 0
+        - rowIndex: 63
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - You've said a lie
+          isEmpty: 0
+        - rowIndex: 64
+          strings:
+          - Jump
+          - '*SelectInMiniGame'
+          isEmpty: 0
+        - rowIndex: 65
+          strings: []
+          isEmpty: 1
+        - rowIndex: 66
+          strings:
+          - '*SelectRunNo_Truth'
+          isEmpty: 0
+        - rowIndex: 67
+          strings:
+          - Param
+          - flag_run=true
+          isEmpty: 0
+        - rowIndex: 68
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 'Ending flag on. Thanks! '
+          isEmpty: 0
+        - rowIndex: 69
+          strings:
+          - Jump
+          - '*SelectInMiniGame'
+          isEmpty: 0
+        - rowIndex: 70
+          strings: []
+          isEmpty: 1
+        - rowIndex: 71
+          strings: []
+          isEmpty: 1
+        - rowIndex: 72
+          strings:
+          - '*SelectRoboko'
+          isEmpty: 0
+        - rowIndex: 73
+          strings:
+          - Param
+          - point_roboko+=1
+          isEmpty: 0
+        - rowIndex: 74
+          strings:
+          - If
+          - point_roboko<=1
+          isEmpty: 0
+        - rowIndex: 75
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Hello
+          isEmpty: 0
+        - rowIndex: 76
+          strings:
+          - Else
+          isEmpty: 0
+        - rowIndex: 77
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - You chose me number is <color=aqua><param=point_roboko></color>
+          isEmpty: 0
+        - rowIndex: 78
+          strings:
+          - EndIf
+          isEmpty: 0
+        - rowIndex: 79
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Add point
+          isEmpty: 0
+        - rowIndex: 80
+          strings:
+          - If
+          - point_roboko>=3
+          isEmpty: 0
+        - rowIndex: 81
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - 'Ending flag on. Thanks! '
+          isEmpty: 0
+        - rowIndex: 82
+          strings:
+          - Param
+          - flag_roboko=true
+          isEmpty: 0
+        - rowIndex: 83
+          strings:
+          - Else
+          isEmpty: 0
+        - rowIndex: 84
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Please speak me <color=aqua><format={0}:3-point_roboko></color>more times
+          isEmpty: 0
+        - rowIndex: 85
+          strings:
+          - EndIf
+          isEmpty: 0
+        - rowIndex: 86
+          strings:
+          - Jump
+          - '*SelectInMiniGame'
+          isEmpty: 0
+        - rowIndex: 87
+          strings: []
+          isEmpty: 1
+        - rowIndex: 88
+          strings:
+          - '*MiniGameEnd'
+          isEmpty: 0
+        - rowIndex: 89
+          strings:
+          - CharacterOff
+          isEmpty: 0
+        - rowIndex: 90
+          strings:
+          - Selection
+          - '*UtakoEnd'
+          - flag_utako
+          - 
+          - 
+          - 
+          - 
+          - Utako End
+          isEmpty: 0
+        - rowIndex: 91
+          strings:
+          - Selection
+          - '*RunEnd'
+          - flag_run
+          - 
+          - 
+          - 
+          - 
+          - Run End
+          isEmpty: 0
+        - rowIndex: 92
+          strings:
+          - Selection
+          - '*RobokoEnd'
+          - flag_roboko
+          - 
+          - 
+          - 
+          - 
+          - Roboko End
+          isEmpty: 0
+        - rowIndex: 93
+          strings:
+          - Selection
+          - '*AllMembersEnd'
+          - flag_utako && flag_run &&  flag_roboko
+          - 
+          - 
+          - 
+          - 
+          - All Members End
+          isEmpty: 0
+        - rowIndex: 94
+          strings:
+          - Selection
+          - '*SelectInMiniGame'
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Back
+          isEmpty: 0
+        - rowIndex: 95
+          strings: []
+          isEmpty: 1
+        - rowIndex: 96
+          strings: []
+          isEmpty: 1
+        - rowIndex: 97
+          strings:
+          - '*UtakoEnd'
+          isEmpty: 0
+        - rowIndex: 98
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - My Game Clear
+          isEmpty: 0
+        - rowIndex: 99
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Thanks
+          isEmpty: 0
+        - rowIndex: 100
+          strings:
+          - Jump
+          - '*EndMiniGame'
+          isEmpty: 0
+        - rowIndex: 101
+          strings: []
+          isEmpty: 1
+        - rowIndex: 102
+          strings: []
+          isEmpty: 1
+        - rowIndex: 103
+          strings:
+          - '*RunEnd'
+          isEmpty: 0
+        - rowIndex: 104
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - My Game Clear
+          isEmpty: 0
+        - rowIndex: 105
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Thanks
+          isEmpty: 0
+        - rowIndex: 106
+          strings:
+          - Jump
+          - '*EndMiniGame'
+          isEmpty: 0
+        - rowIndex: 107
+          strings: []
+          isEmpty: 1
+        - rowIndex: 108
+          strings:
+          - '*RobokoEnd'
+          isEmpty: 0
+        - rowIndex: 109
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - My Game Clear
+          isEmpty: 0
+        - rowIndex: 110
+          strings:
+          - 
+          - Roboko
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Thanks
+          isEmpty: 0
+        - rowIndex: 111
+          strings:
+          - Jump
+          - '*EndMiniGame'
+          isEmpty: 0
+        - rowIndex: 112
+          strings: []
+          isEmpty: 1
+        - rowIndex: 113
+          strings:
+          - '*AllMembersEnd'
+          isEmpty: 0
+        - rowIndex: 114
+          strings:
+          - 
+          - Utako
+          - 
+          - Character
+          isEmpty: 0
+        - rowIndex: 115
+          strings:
+          - 
+          - Run
+          - 
+          - CharacterLeft
+          isEmpty: 0
+        - rowIndex: 116
+          strings:
+          - 
+          - Roboko
+          - 
+          - CharacterRight
+          isEmpty: 0
+        - rowIndex: 117
+          strings:
+          - 
+          - Utako
+          - 
+          - 
+          - 
+          - 
+          - 
+          - You have cleared all root.
+          isEmpty: 0
+        - rowIndex: 118
+          strings:
+          - 
+          - Run
+          - 
+          - 
+          - 
+          - 
+          - 
+          - Congratulations
+          isEmpty: 0
+        - rowIndex: 119
+          strings:
+          - Jump
+          - '*EndMiniGame'
+          isEmpty: 0
+        - rowIndex: 120
+          strings: []
+          isEmpty: 1
+        - rowIndex: 121
+          strings: []
+          isEmpty: 1
+        - rowIndex: 122
+          strings: []
+          isEmpty: 1
+        - rowIndex: 123
+          strings: []
+          isEmpty: 1
+        - rowIndex: 124
+          strings:
+          - '*EndMiniGame'
+          isEmpty: 0
+        - rowIndex: 125
+          strings:
+          - EndScenario
+          isEmpty: 0
+        name: Assets/UtageSampleScenario/Sample English/Sample English.xls:TutorialMiniGame
+        type: 1
+        textLength: 2187
+        headerRow: 0

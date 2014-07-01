@@ -1,0 +1,9 @@
+Library
+Temp
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
+
+#mac
+.DS_Store

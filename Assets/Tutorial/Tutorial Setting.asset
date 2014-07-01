@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5cadbeb26cda8429adadb4e1dd0252, type: 3}
+  m_Name: Tutorial Setting
+  m_EditorClassIdentifier: 
+  scenarioSetting:
+    list: []
+  characterSetting:
+    list: []
+    defaultKey:
+      list: []
+  textureSetting:
+    list: []
+  soundSetting:
+    list: []
+  layerSetting:
+    list: []
+  defaultParam:
+    list: []
+  sceneGallerySetting:
+    list: []

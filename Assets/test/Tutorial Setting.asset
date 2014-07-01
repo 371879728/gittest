@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5cadbeb26cda8429adadb4e1dd0252, type: 3}
+  m_Name: Tutorial Setting
+  m_EditorClassIdentifier: 
+  scenarioSetting:
+    list: []
+  characterSetting:
+    list:
+    - key: "\u3046\u305F\u3053,\u901A\u5E38"
+      fileName: Utako/utako.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u3046\u305F\u3053,\u7B11\u3044"
+      fileName: Utako/utako_smile.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u3046\u305F\u3053,\u305F\u3081\u606F"
+      fileName: Utako/utako_tameiki.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u3046\u305F\u3053,\u7167\u308C"
+      fileName: Utako/utako_tere.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30E9\u30F3,\u901A\u5E38"
+      fileName: Run/run.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30E9\u30F3,\u30D3\u30C3\u30AF\u30EA"
+      fileName: Run/run_bikkuri.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30E9\u30F3,\u30C9\u30E4\u9854"
+      fileName: Run/run_doya.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30E9\u30F3,\u6012"
+      fileName: Run/run_oko.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30E9\u30F3,\u7167\u308C"
+      fileName: Run/run_tere.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30ED\u30DC\u5B50,\u901A\u5E38"
+      fileName: Robo/robo.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30ED\u30DC\u5B50,\u30DD\u30FC\u30BA"
+      fileName: Robo/robo_pose.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30ED\u30DC\u5B50,\u30B9\u30AD\u30E3\u30F3"
+      fileName: Robo/robo_scan.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30ED\u30DC\u5B50,\u7167\u308C\u30FB\u4F0F\u3057\u76EE"
+      fileName: Robo/robo_tere_huse.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    - key: "\u30ED\u30DC\u5B50,\u7167\u308C\u30FB\u76EE\u9038\u3089\u3057"
+      fileName: Robo/robo_tere_sorasi.png
+      version: 0
+      pivot: {x: .5, y: 0}
+      scale: 1
+    defaultKey:
+      list:
+      - key: "\u3046\u305F\u3053"
+        value: "\u3046\u305F\u3053,\u901A\u5E38"
+      - key: "\u30E9\u30F3"
+        value: "\u30E9\u30F3,\u901A\u5E38"
+      - key: "\u30ED\u30DC\u5B50"
+        value: "\u30ED\u30DC\u5B50,\u901A\u5E38"
+  textureSetting:
+    list:
+    - key: "\u80CC\u666F\u305D\u306E1"
+      fileName: TutorialBg1.png
+      type: 0
+      pivot: {x: .5, y: .5}
+      scale: 1
+      version: 0
+      thumbnailName: 
+      thumbnailVersion: 0
+    - key: "\u80CC\u666F\u305D\u306E2"
+      fileName: TutorialBg2.png
+      type: 0
+      pivot: {x: .5, y: .5}
+      scale: 1
+      version: 0
+      thumbnailName: 
+      thumbnailVersion: 0
+    - key: "\u96C6\u5408"
+      fileName: syuugou.jpg
+      type: 1
+      pivot: {x: .5, y: .5}
+      scale: .5
+      version: 0
+      thumbnailName: syuugou.jpg
+      thumbnailVersion: 0
+    - key: "\u30ED\u30DC\u7740\u66FF\u3048"
+      fileName: roboko_kigae
+      type: 1
+      pivot: {x: .5, y: .5}
+      scale: 1
+      version: 0
+      thumbnailName: roboko_kigae
+      thumbnailVersion: 0
+    - key: "\u30ED\u30DC\u7740\u66FF\u30482"
+      fileName: roboko_kigae2
+      type: 1
+      pivot: {x: .5, y: .5}
+      scale: 1
+      version: 0
+      thumbnailName: roboko_kigae
+      thumbnailVersion: 0
+    - key: "\u30ED\u30DC\u30D0\u30A4\u30AF"
+      fileName: robobaiku
+      type: 1
+      pivot: {x: .5, y: .5}
+      scale: 1
+      version: 0
+      thumbnailName: 
+      thumbnailVersion: 0
+    - key: "\u30DC\u30FC\u30EB"
+      fileName: ball.png
+      type: 2
+      pivot: {x: .5, y: .5}
+      scale: 1
+      version: 0
+      thumbnailName: 
+      thumbnailVersion: 0
+    - key: "\u30B7\u30CA\u30EA\u30AA\u30C7\u30FC\u30BF\u306E\u30B9\u30AF\u30B7\u30E7"
+      fileName: ScenarioDataScreen.png
+      type: 2
+      pivot: {x: .5, y: .5}
+      scale: 1
+      version: 0
+      thumbnailName: 
+      thumbnailVersion: 0
+  soundSetting:
+    list:
+    - key: "SE\u305D\u306E1"
+      type: 1
+      title: 
+      fileName: sfx-deposit.wav
+      isStreaming: 0
+      version: 0
+    - key: "SE\u305D\u306E2"
+      type: 1
+      title: 
+      fileName: sfx-pickup.wav
+      isStreaming: 0
+      version: 0
+    - key: "\u30B7\u30E5\u30FC\u30C8"
+      type: 1
+      title: 
+      fileName: m4_shoot.wav
+      isStreaming: 0
+      version: 0
+    - key: "\u7206\u767A"
+      type: 1
+      title: 
+      fileName: robotExplosion.wav
+      isStreaming: 0
+      version: 0
+    - key: "BGM\u305D\u306E1"
+      type: 0
+      title: "\u30E1\u30A4\u30F3\u30C6\u30FC\u30DE"
+      fileName: MainTheme.wav
+      isStreaming: 1
+      version: 0
+    - key: "BGM\u305D\u306E2"
+      type: 0
+      title: "\u30DD\u30EB\u30AB"
+      fileName: SpazzmaticaPolka.mp3
+      isStreaming: 1
+      version: 0
+    - key: "\u74B0\u5883\u97F3\u305D\u306E1"
+      type: 2
+      title: 
+      fileName: water_river.wav
+      isStreaming: 1
+      version: 0
+    - key: "\u74B0\u5883\u97F3\u305D\u306E2"
+      type: 2
+      title: 
+      fileName: ambience_inside_electric_1.wav
+      isStreaming: 1
+      version: 0
+  layerSetting:
+    list:
+    - key: "\u80CC\u666F"
+      type: 0
+      center: {x: 0, y: 0}
+      order: 0
+      layerMask: 
+    - key: "\u30B9\u30D7\u30E9\u30A4\u30C8"
+      type: 2
+      center: {x: 0, y: 0}
+      order: 100
+      layerMask: 
+    - key: "\u30AD\u30E3\u30E9\u4E2D\u592E"
+      type: 1
+      center: {x: 0, y: -350}
+      order: 200
+      layerMask: 
+    - key: "\u30AD\u30E3\u30E9\u5DE6"
+      type: 1
+      center: {x: -250, y: -350}
+      order: 190
+      layerMask: 
+    - key: "\u30AD\u30E3\u30E9\u53F3"
+      type: 1
+      center: {x: 250, y: -350}
+      order: 190
+      layerMask: 
+  defaultParam:
+    list:
+    - key: point_roboko
+      type: 2
+      parameterString: 0
+    - key: flag_utako
+      type: 0
+      parameterString: FALSE
+    - key: flag_run
+      type: 0
+      parameterString: FALSE
+    - key: flag_roboko
+      type: 0
+      parameterString: FALSE
+    - key: select_utako
+      type: 0
+      parameterString: FALSE
+    - key: select_run
+      type: 0
+      parameterString: FALSE
+    - key: select_roboko
+      type: 0
+      parameterString: FALSE
+    - key: num_boot
+      type: 2
+      parameterString: 0
+    - key: game_title
+      type: 3
+      parameterString: "\u5BB4"
+  sceneGallerySetting:
+    list:
+    - key: Start
+      title: "\u958B\u59CB"
+      thumbnailName: ThumbnailSample.jpg
+      thumbnailVersion: 0
+    - key: TutorialText
+      title: "\u30C6\u30AD\u30B9\u30C8\u8868\u793A"
+      thumbnailName: ThumbnailSample.jpg
+      thumbnailVersion: 0
+    - key: TutorialCharacter
+      title: "\u30AD\u30E3\u30E9\u8868\u793A"
+      thumbnailName: ThumbnailSample.jpg
+      thumbnailVersion: 0
+    - key: TutorialBG
+      title: "\u80CC\u666F\u8868\u793A"
+      thumbnailName: ThumbnailSample.jpg
+      thumbnailVersion: 0
+    - key: TutorialSound
+      title: "\u30B5\u30A6\u30F3\u30C9"
+      thumbnailName: ThumbnailSample.jpg
+      thumbnailVersion: 0
