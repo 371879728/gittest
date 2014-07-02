@@ -1,9 +1,14 @@
 Library
+build
 Temp
+obj
 *.pidb
-*.unityproj
-*.sln
 *.userprefs
+*.unityproj
+*.csproj
+*.sln
+*.suo
 
 #mac
 .DS_Store
+
